@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Checks wheter mouse on the element in React",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,11 @@
   },
   "homepage": "https://github.com/panindra2017/react-mouseonelement#readme",
   "dependencies": {
-    "react": "^16.13.1"
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.5",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "react": "^16.13.1",
+    "typescript": "^3.8.3"
   }
 }
